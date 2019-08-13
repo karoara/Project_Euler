@@ -16,4 +16,5 @@ while b < limit + 1:
 
 # get a * b * c
 answer = a * b * (1000 - a - b)
+
 print(answer)
