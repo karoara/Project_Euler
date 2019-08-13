@@ -2,7 +2,7 @@
 # Path sum: two ways.
 
 # create matrix
-f = open("other_files/matrix.txt", "r")
+f = open("other_files/p81_82_83_matrix.txt", "r")
 data, matrix = f.readlines(), []
 for line in data: matrix.append([int(number) for number in line.split(",")])
 
